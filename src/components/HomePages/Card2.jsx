@@ -4,7 +4,12 @@ export default function Card2({ thumb, title, creator, date }) {
   return (
     <div className="flex gap-2 items-center w-full">
       <div className="max-w-[35%] rounded-md aspect-[5/3] md:max-w-[30%]  w-full lg:max-w-[30%] border overflow-hidden">
-        <img src={thumb} alt="" className="w-full object-cover object-center" />
+        <img
+          src={thumb}
+          alt=""
+          loading="lazy"
+          className="w-full object-cover object-center"
+        />
       </div>
       <div className="max-w-[70%]">
         <a href="">

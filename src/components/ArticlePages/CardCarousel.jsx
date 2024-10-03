@@ -8,6 +8,7 @@ export const CardCarousel = (props) => {
       <img
         src={props.image}
         alt=""
+        loading="lazy"
         className="w-full aspect-square object-cover object-center items-center md:aspect-video"
       />
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00000074] text-white p-5 flex flex-col justify-between md:p-8 lg:px-10 xl:px-32 xl:py-11 z-0">

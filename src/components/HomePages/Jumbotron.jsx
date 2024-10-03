@@ -7,6 +7,7 @@ export default function Jumbotron() {
       <img
         src={jumbotron}
         alt="people images"
+        loading="lazy"
         className="md:max-w-[45%] m-auto lg:max-w-[45%]"
       />
       <div className="px-4 md:max-w-[50%] md:px-0 lg:max-w-none xl:max-w-[50%]">

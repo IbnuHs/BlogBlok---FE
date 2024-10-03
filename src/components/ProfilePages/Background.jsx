@@ -8,6 +8,7 @@ export default function Background() {
       <img
         src={bg}
         alt=""
+        loading="lazy"
         className="h-full object-top object-cover aspect-video"
       />
     </div>

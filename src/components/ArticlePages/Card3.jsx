@@ -6,6 +6,7 @@ export default function Card3(props) {
       <img
         src={props.image}
         alt="thumbnail"
+        loading="lazy"
         className="md:aspect-video md:object-center md:object-cover rounded-md xl:w-full xl:max-w-[80%] m-auto"
       />
       <div className="flex flex-col gap-4 md:gap-2 lg:px-10 xl:px-1 xl:gap-8">

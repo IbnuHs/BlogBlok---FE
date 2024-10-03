@@ -5,7 +5,7 @@ import avatar from "../../assets/Avatar.png";
 export default function Card1(props) {
   return (
     <div className="max-w-[380px] shadow-md flex justify-center flex-col border px-4 pb-8 pt-6 gap-6">
-      <img src={cardImg} alt="Thumbnail" />
+      <img src={cardImg} alt="Thumbnail" loading="lazy" />
       <div className="flex flex-col gap-12">
         <div className="">
           <h1 className="text-[24px] font-semibold lg:text-[19px] xl:text-[22px]">

@@ -11,6 +11,7 @@ export default function ProfileSection() {
         <img
           src={profile}
           alt=""
+          loading="lazy"
           className="max-w-32 aspect-square rounded-full border-4 border-black absolute -top-16"
         />
       </div>

@@ -6,6 +6,7 @@ export default function (props) {
       <img
         src={props.image}
         alt="thumbnail"
+        loading="lazy"
         className="md:aspect-video md:object-center md:object-cover rounded-md xl:w-full"
       />
       <div className="flex flex-col gap-4 md:gap-2 xl:gap-4">

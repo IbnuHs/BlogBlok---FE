@@ -6,6 +6,7 @@ export default function Card5(props) {
       <img
         src={props.image}
         alt=""
+        loading="lazy"
         className=" rounded-md aspect-[5/3]  w-full object-cover object-center md:max-w-[240px] lg:max-w-[85%] m-auto "
       />
       {/* <div className="max-w-[35%] rounded-md aspect-[5/3] md:aspect-video  w-full border-2 border-black overflow-hidden">
